@@ -1,11 +1,10 @@
 package com.grupo6.modelos;
-
 import java.util.ArrayList;
 import javax.persistence.*;
 
 @Entity
 @Table(name="usuarios")
-public class usuarios {
+public class UsuarioModelo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique=true,nullable = false)
@@ -96,7 +95,6 @@ public class usuarios {
     }
     public void setNombreUsuario(String nombreUsuario) {
         this.nombreUsuario = nombreUsuario;
-    }
-
-    
+    }    
 }
+    
