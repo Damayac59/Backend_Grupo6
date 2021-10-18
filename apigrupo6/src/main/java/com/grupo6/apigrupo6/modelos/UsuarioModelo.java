@@ -9,15 +9,15 @@ public class UsuarioModelo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique=true,nullable = false)
     private long id;
-    private String nombre_usuario;
+    private String nombreUsuario;
     private int cedula;
     private String nombre;
     private String apellido;
     private String cargo;
     private String contrasena;
     private String horario;
-    private ArrayList<String> diasLaborales;
-    private ArrayList<String> novedades;
+    /*private ArrayList<String> diasLaborales;
+    private ArrayList<String> novedades;*/
     private boolean administrador;
 
     public String getNombre() {
@@ -68,7 +68,7 @@ public class UsuarioModelo {
         this.horario = horario;
     }
 
-    public ArrayList<String> getDiasLaborales() {
+   /* public ArrayList<String> getDiasLaborales() {
         return this.diasLaborales;
     }
 
@@ -82,10 +82,10 @@ public class UsuarioModelo {
 
     public void setNovedades(ArrayList<String> novedades) {
         this.novedades = novedades;
-    }
+    }*/
     
-    public String getNombre_usuario() {
-        return nombre_usuario;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
     public int getCedula() {
         return cedula;
@@ -93,8 +93,8 @@ public class UsuarioModelo {
     public void setCedula(int cedula) {
         this.cedula = cedula;
     }
-    public void setNombre_Usuario(String nombre_usuario) {
-        this.nombre_usuario = nombre_usuario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }    
 }
     

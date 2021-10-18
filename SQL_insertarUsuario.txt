@@ -1,0 +1,2 @@
+INSERT INTO usuarios (nombre_usuario, cedula, nombre,apellido,cargo,contrasena,horario,dias_laborales,novedades,administrador)
+VALUES ("Daniel.Amaya", 123462785,"Daniel","Amaya","Ingeniero Analista",123456,"7 a 12","[L,M]","[cita medica, diligencia personal]",0);
