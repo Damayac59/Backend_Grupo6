@@ -9,7 +9,7 @@ public class UsuarioModelo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique=true,nullable = false)
     private long id;
-    private String nombreUsuario;
+    private String nombre_usuario;
     private int cedula;
     private String nombre;
     private String apellido;
@@ -84,8 +84,8 @@ public class UsuarioModelo {
         this.novedades = novedades;
     }
     
-    public String getNombreUsuario() {
-        return nombreUsuario;
+    public String getNombre_usuario() {
+        return nombre_usuario;
     }
     public int getCedula() {
         return cedula;
@@ -93,8 +93,8 @@ public class UsuarioModelo {
     public void setCedula(int cedula) {
         this.cedula = cedula;
     }
-    public void setNombreUsuario(String nombreUsuario) {
-        this.nombreUsuario = nombreUsuario;
+    public void setNombre_Usuario(String nombre_usuario) {
+        this.nombre_usuario = nombre_usuario;
     }    
 }
     
