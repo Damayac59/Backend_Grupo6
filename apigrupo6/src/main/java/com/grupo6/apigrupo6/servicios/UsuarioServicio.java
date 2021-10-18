@@ -1,7 +1,7 @@
 package com.grupo6.apigrupo6.servicios;
 
 import com.grupo6.apigrupo6.repositorio.UsuarioRepo;
-import com.grupo6.modelos.UsuarioModelo;
+import com.grupo6.apigrupo6.modelos.UsuarioModelo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

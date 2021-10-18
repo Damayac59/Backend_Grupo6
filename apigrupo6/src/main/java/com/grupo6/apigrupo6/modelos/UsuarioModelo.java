@@ -1,4 +1,4 @@
-package com.grupo6.modelos;
+package com.grupo6.apigrupo6.modelos;
 import java.util.ArrayList;
 import javax.persistence.*;
 
