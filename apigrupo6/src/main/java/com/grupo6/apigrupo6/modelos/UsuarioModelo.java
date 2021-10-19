@@ -16,8 +16,8 @@ public class UsuarioModelo {
     private String cargo;
     private String contrasena;
     private String horario;
-    /*private ArrayList<String> diasLaborales;
-    private ArrayList<String> novedades;*/
+    private ArrayList<String> diasLaborales;
+    /*private ArrayList<String> novedades;*/
     private boolean administrador;
 
     public String getNombre() {
@@ -68,14 +68,14 @@ public class UsuarioModelo {
         this.horario = horario;
     }
 
-   /* public ArrayList<String> getDiasLaborales() {
+   public ArrayList<String> getDiasLaborales() {
         return this.diasLaborales;
     }
 
     public void setDiasLaborales(ArrayList<String> diasLaborales) {
         this.diasLaborales = diasLaborales;
     }
-
+    /* 
     public ArrayList<String> getNovedades() {
         return this.novedades;
     }
